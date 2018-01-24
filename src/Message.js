@@ -15,6 +15,7 @@ export default class Message extends React.Component {
         </div>
         <div className="Message-contents">{this.props.value.contents}</div>
       </div>
+     
     );
   }
 }
